@@ -1,1 +1,10 @@
+body {
+    position: relative;
+}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #ffd207;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #c9c6cc;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #fffc2e;}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: #c9c6cc;}
+#section5 {padding-top:50px;height:500px;color: #fff; background-color: #141414;}
+
 
