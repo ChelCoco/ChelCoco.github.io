@@ -6,20 +6,24 @@
     <title>
         Chelcie White
     </title>
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <!-- viewport is the users visible area of a webpage, viewport varies with the device-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="images/project1.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Poiret+One|Cutive+Mono" rel="stylesheet">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  crossorigin="anonymous">
 </head>
 
 <!-- changes to make: when clicking away from hamburger, expect to view page alone and hamburger fades away-->
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<!-- logo to nav-bar -->
+    <!-- logo to nav-bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -34,16 +38,16 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="#welcome">Welcome</a>
+                            <a href="#welcome" class="navfont">Welcome</a>
                         </li>
                         <li>
-                            <a href="#about">About Me</a>
+                            <a href="#about" class="navfont">About Me</a>
                         </li>
                         <li>
-                            <a href="#portfolio">Portfolio</a>
+                            <a href="#portfolio" class="navfont">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <a href="#projects" class="navfont">Projects</a>
                         </li>
                     </ul>
                 </div>
@@ -52,17 +56,26 @@
     </nav>
 
     <div id="welcome" class="container-fluid">
-        <h1>Hi there!, I'm Chelcie.</h1>
-        <p><a href="https://github.com/ChelWhite" target="_blank"><i class= "fa fa-github" style="font-size:25px;"></i></a>
-            <a href="https://www.instagram.com/chelciejessica/" target="_blank"><i class="fa fa-instagram" style="font-size:25px;"></i></a> 
-            <a href="https://www.linkedin.com/in/chelcie-white-46422455/" target="_blank"><i class="fa fa-linkedin" style="font-size:25px;"></i></a></p>
+        <h1 id="hi">Hi there!, I'm Chelcie.</h1>
+        <p>
+            <a href="https://github.com/ChelWhite" target="_blank">
+                <i class="fa fa-github" style="font-size:25px;"></i>
+            </a>
+            <a href="https://www.instagram.com/chelciejessica/" target="_blank">
+                <i class="fa fa-instagram" style="font-size:25px;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/chelcie-white-46422455/" target="_blank">
+                <i class="fa fa-linkedin" style="font-size:25px;"></i>
+            </a>
+        </p>
     </div>
     <div id="about" class="container-fluid">
-        <h1>About Me</h1>
-        <p>When I'm not hiking or drawing, you'll find me making websites or working with new design technologies. <br>
-            One thing is for sure, I'll always be drinking an exessive amount of coffee and tea.
+        <h1>About Me</h1><br>
+        <p>When I'm not hiking or drawing, you'll find me making websites or working with new design technologies.
         </p>
-        <h2>Front-end Development Skills</h2>
+        <p> One thing is for sure, I'll always be drinking an exessive amount of coffee and tea.
+        </p><br>
+        <h2>Front-end Development Skills</h2>=
         <ul id="skills">
             <li>
                 illustration
@@ -75,150 +88,55 @@
             </li>
             <li>
                 Javascript (ES5,ES6)
-                </li> 
+            </li>
             <li>
-                    jQuery
+                jQuery
             </li>
             <li>
                 AngularJS
-            </li>
+            </li> 
         </ul>
+   
     </div>
     <div id="portfolio" class="container-fluid">
         <h1>Portfolio</h1>
-        <div class="container-fluid bg-3 text-center"><br>
-                <div class="row">
-                  <div class="col-sm-3 col-xs-3">
+        <div class="container-fluid bg-3 text-center">
+            <br>
+            <div class="row">
+                <div class="col-sm-3 col-xs-5">
                     <p>Coming Soon</p>
                     <img src="images/project3.svg" class="img-responsive" style="width:100%" alt="Image">
-                  </div>
-                  <div class="col-sm-3 col-xs-3"> 
-                    <p>Coming Soon</p>
-                    <img src="images/project3.svg" class="img-responsive" style="width:100%" alt="Image">
-                  </div>
-                  <div class="col-sm-3 col-xs-3"> 
-                    <p>Coming Soon</p>
-                    <img src="images/project3.svg" class="img-responsive" style="width:100%" alt="Image">
-                  </div>
                 </div>
-              </div>
+                <div class="col-sm-3 col-xs-5">
+                    <p>Coming Soon</p>
+                    <img src="images/project3.svg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-3 col-xs-5">
+                    <p>Coming Soon</p>
+                    <img src="images/project3.svg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+            </div>
+        </div>
     </div>
     <div id="projects" class="container-fluid">
         <h1>Projects</h1>
-        <div class="container-fluid text-center"><br>
-        <div class="row"><br>
-                <div class="col-md-2 col-xs-2">
-                    <div class="thumbnail">
-                        <a href="https://codepen.io/ChelCoCo/full/zRXJoN/" target="_blank">
-                            <img src="images/project1.svg" alt="project1" style="width:100%">
-                            <div class="caption">
-                                <p>
-                                    Tribute page. 
-                                </p>
-                            </div>
-                        </a>
-                    </div>
+        <div class="container-fluid bg-3 text-center">
+            <br>
+            <div class="row">
+                <div class="col-sm-3 col-xs-4">
+                    <a href="https://codepen.io/ChelCoCo/full/zRXJoN/" target="_blank">
+                        <p>Tribute page</p>
+                        <img src="images/project1.svg" alt="project1" style="width:100%">
+                    </a>
                 </div>
-                <div class="col-md-2 col-xs-2">
-                    <div class="thumbnail">
-                        <a href="#">
-                            <img src="images/project2.svg" alt="project2" style="width:100%">
-                            <div class="caption">
-                                <p>
-                                    Random Quote Machine
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-2">
-                        <div class="thumbnail">
-                            <a href="#">
-                                <img src="images/project3.svg" alt="project3" style="width:100%">
-                                <div class="caption">
-                                    <p>
-                                        Show Local Weather
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-xs-2">
-                            <div class="thumbnail">
-                                <a href="#">
-                                    <img src="images/project4.svg" alt="project4" style="width:100%">
-                                    <div class="caption">
-                                        <p>
-                                            Wikipedia Viewer
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-xs-2">
-                                <div class="thumbnail">
-                                    <a href="#">
-                                        <img src="images/project5.svg" alt="project5" style="width:100%">
-                                        <div class="caption">
-                                            <p>
-                                                Twitch.tv JSON API
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-xs-2">
-                                    <div class="thumbnail">
-                                        <a href="#">
-                                            <img src="images/project6.svg" alt="project6" style="width:100%">
-                                            <div class="caption">
-                                                <p>
-                                                    Javascript Calculator
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-xs-2">
-                                        <div class="thumbnail">
-                                            <a href="#">
-                                                <img src="images/project7.svg" alt="project7" style="width:100%">
-                                                <div class="caption">
-                                                    <p>
-                                                        Pomodoro Clock
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2 col-xs-2">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <img src="images/project8.svg" alt="project8" style="width:100%">
-                                                    <div class="caption">
-                                                        <p>
-                                                            Tic Tac Toe Game
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2 col-xs-2">
-                                                <div class="thumbnail">
-                                                    <a href="#">
-                                                        <img src="images/project9.svg" alt="project9" style="width:100%">
-                                                        <div class="caption">
-                                                            <p>
-                                                                Simon Game
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-            </div>
+                <!--return and add column wrapping-->
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script> $(document).ready(function(){
+            $("#hi").addClass("animated bounce");
+        });
+            </script>
 </body>
 
 </html>
