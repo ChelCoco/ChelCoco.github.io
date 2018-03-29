@@ -5,6 +5,7 @@ body {
 #about {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
 #portfolio {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
 #projects {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
+#footer {text-align:center; padding-top:10px;height:50px;color: #d8ccc0; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
 
 .navfont {
     font-family: 'Cutive Mono', monospace;
@@ -19,13 +20,5 @@ p {
 #skills {
     font-size: 18px;
     font-family: 'Cutive Mono', monospace;
-}
-
-.caption {
-    text-align: center;
-}
-
-.thumbnail{
-    background-color: #f8daac ;
 }
 
