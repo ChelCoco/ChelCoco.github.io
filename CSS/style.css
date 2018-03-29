@@ -1,7 +1,7 @@
 body {
     position: relative;
 }
-#welcome {padding-top:50px;height:500px;color: #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414;}
+#welcome {padding-top:50px;height:500px;color: #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
 #about {padding-top:50px;height:500px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
 #portfolio {padding-top:50px;height:500px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
 #projects {padding-top:50px;height:500px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
@@ -16,6 +16,10 @@ p {
 
 #skills {
     font-size: 18px;
+}
+
+.caption {
+    text-align: center;
 }
 
 

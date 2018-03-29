@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="images/project1.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Poiret+One" rel="stylesheet">
@@ -18,7 +19,7 @@
 
 <!-- changes to make: when clicking away from hamburger, expect to view page alone and hamburger fades away-->
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
+<!-- logo to nav-bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -73,20 +74,37 @@
                 CSS
             </li>
             <li>
-                Javascript (ES5,ES6) - Jquery -AngularJS
+                Javascript (ES5,ES6)
                 </li> 
+            <li>
+                    jQuery
+            </li>
+            <li>
+                AngularJS
+            </li>
         </ul>
-       
     </div>
     <div id="portfolio" class="container-fluid">
         <h1>Portfolio</h1>
-        <p>portfolio</p>
+
     </div>
     <div id="projects" class="container-fluid">
         <h1>Projects</h1>
-        <p>Projects <!-- I'll  use carousel --> </p>
+        <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="https://codepen.io/ChelCoCo/full/zRXJoN/" target="_blank">
+                            <img src="images/project1.svg" alt="project1" style="width:100%">
+                            <div class="caption">
+                                <p>
+                                    Tribute page. 
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
