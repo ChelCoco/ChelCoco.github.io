@@ -107,12 +107,11 @@
 
     <div id="contact" class="container-fluid">
         <h1>Contact</h1>
-                <!--return and add column wrapping with cards-->
-                <div class="smartphone">
-                        <div class="content">
-                          <iframe src="images/iphone.svg" style="width:100%;border:none;height:100%" />
-                        </div>
-                      </div>
+        <div class="smartphone">
+                <div class="content">
+                  <iframe style="width:100%;border:none;height:100%" />
+                </div>
+              </div>
 
     </div>
     <div id="footer" class="container-fluid">
@@ -123,6 +122,15 @@
         <script> $(document).ready(function(){
             $("#hi").addClass("animated bounce");
         });
+            </script>
+
+            <!--added script to collapse the hamburger -->
+            <script>
+                $(document).click(function(e) {
+	if (!$(e.target).is('.navbar-nav')) {
+    	$('.collapse').collapse('hide');	    
+    }
+});
             </script>
 
 </body>

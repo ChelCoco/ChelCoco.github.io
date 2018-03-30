@@ -41,7 +41,6 @@ p {
     font-family: 'Cutive Mono', monospace;
 }
 
-
 /* The device with borders */
 .smartphone {
     position: relative;
@@ -76,8 +75,8 @@ p {
     height: 35px;
     position: absolute;
     left: 50%;
-    bottom: -68px;
-    transform: translate(-50%, -50%); /*2 dimentional transformation is applied to this  element so asimilate svg functionality */
+    bottom: -65px;
+    transform: translate(-50%, -50%);
     background: #333;
     border-radius: 50%;
   }
@@ -88,4 +87,6 @@ p {
     height: 520px;
     background: white;
   }
+
+
 
