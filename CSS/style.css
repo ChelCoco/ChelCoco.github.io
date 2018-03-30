@@ -1,16 +1,35 @@
 body {
     position: relative;
 }
-#welcome {padding-top:98px;height:700px;color: #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
-#about {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
-#portfolio {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
-#projects {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
-#footer {text-align:center; padding-top:10px;height:50px;color: #d8ccc0; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
+#welcome {padding-top:98px;height:700px;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
+#about {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color: #ffe4bc;}
+#portfolio {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffddbc;}
+#contact {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffe4bc;}
+#footer {text-align:center; padding-top:10px;height:50px;color: #ffe4bc; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
 
 .navfont {
     font-family: 'Cutive Mono', monospace;
 }
 
+/* unvisited link */
+#links:link {
+    color: #ffddbc;
+}
+
+/* visited link */
+#links:visited {
+    color: #ff8b17;
+}
+
+/* mouse over link */
+#links:hover {
+    color: hotpink;
+}
+
+/* selected link */
+#links:active {
+    color: #f7f306;
+}
 
 p {
     font-size: 20px;
