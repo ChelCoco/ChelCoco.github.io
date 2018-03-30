@@ -100,29 +100,19 @@
     </div>
     <div id="portfolio" class="container-fluid">
         <h1>Portfolio</h1>
-        <div class="container-fluid bg-3 text-center">
-            <br>
-            <div class="row">
-                <div class="col-sm-3 col-xs-5">
-                        <a href="https://codepen.io/ChelCoCo/full/zRXJoN/" target="_blank">
-                    <p>Tribute Page</p>
-                    <img src="images/project1.svg" class="img-responsive" style="width:100%" alt="Image">
-                    </a>
-                </div>
-                <div class="col-sm-3 col-xs-5">
-                    <p>Coming Soon</p>
-                    <img src="images/project3.svg" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-3 col-xs-5">
-                    <p>Coming Soon</p>
-                    <img src="images/project3.svg" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-            </div>
-        </div>
+        
+ 
     </div>
+
+
     <div id="contact" class="container-fluid">
         <h1>Contact</h1>
                 <!--return and add column wrapping with cards-->
+                <div class="smartphone">
+                        <div class="content">
+                          <iframe src="images/iphone.svg" style="width:100%;border:none;height:100%" />
+                        </div>
+                      </div>
 
     </div>
     <div id="footer" class="container-fluid">
@@ -133,6 +123,15 @@
         <script> $(document).ready(function(){
             $("#hi").addClass("animated bounce");
         });
+            </script>
+
+            <!--added script to collapse the hamburger -->
+            <script>
+                $(document).click(function(e) {
+	if (!$(e.target).is('.navbar-nav')) {
+    	$('.collapse').collapse('hide');	    
+    }
+});
             </script>
 
 </body>
