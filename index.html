@@ -14,10 +14,8 @@
     <link rel="stylesheet" href="images/project1.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Poiret+One|Cutive+Mono" rel="stylesheet">
-    <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
-  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-  crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+        crossorigin="anonymous">
 </head>
 
 <!-- changes to make: when clicking away from hamburger, expect to view page alone and hamburger fades away-->
@@ -57,7 +55,7 @@
 
     <div id="welcome" class="container-fluid">
         <h1 id="hi">Hi there!, I'm Chelcie.</h1>
-        <p >
+        <p>
             <a href="https://github.com/ChelWhite" target="_blank" id="links">
                 <i class="fa fa-github" style="font-size:25px;"></i>
             </a>
@@ -70,15 +68,15 @@
         </p>
     </div>
     <div id="about" class="container-fluid">
-        <h1>About Me</h1><br>
-        <p>When I'm not hiking or drawing, you'll find me making websites or working with new design technologies.
+        <h1>About Me</h1>
+        <br>
+        <p>When I'm not drawing or drinking an exessive amount of tea, you'll find me making websites. Line by line I try to create sites that are "responsive" meaning that they look great on your laptop's screen, and mobile devices.
         </p>
-        <p> One thing is for sure, I'll always be drinking an exessive amount of coffee and tea.
-        </p><br>
+        <br>
         <h2>Front-end Development Skills</h2>=
         <ul id="skills">
             <li>
-                illustration
+                Illustration
             </li>
             <li>
                 HTML
@@ -94,42 +92,168 @@
             </li>
             <li>
                 AngularJS
-            </li> 
+            </li>
         </ul>
-   
+
     </div>
     <div id="portfolio" class="container-fluid">
         <h1>Portfolio</h1>
-        
- 
+       <!-- try to add portfolio with filtering-->
+       <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('websites')"> Websites</button>
+            <button class="btn" onclick="filterSelection('projects')"> Projects</button>
+            <button class="btn" onclick="filterSelection('illustrations')"> Illustrations</button>
+          </div>
+          
+          <!-- Portfolio Gallery Grid -->
+          <div class="row">
+            <div class="column websites">
+              <div class="content">
+                <img  src="#" alt="website1" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="column websites">
+              <div class="content">
+              <img src="#" alt="website2" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="column websites">
+              <div class="content">
+              <img src="#" alt="website3" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            
+            <div class="column projects">
+              <div class="content">
+                  <a href="https://codepen.io/ChelCoCo/full/zRXJoN/" target="_blank">
+                <img src="#" alt="projects1" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+            </a>
+              </div>
+            </div>
+            <div class="column projects">
+              <div class="content">
+              <img src="#" alt="projects2" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="column projects">
+              <div class="content">
+              <img src="#" alt="projects3" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+          
+            <div class="column illustrations">
+              <div class="content">
+                <img src="#" alt="illustration1" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="column illustrations">
+              <div class="content">
+              <img src="#" alt="illustration2" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="column illustrations">
+              <div class="content">
+              <img src="#" alt="illustrations3" style="width:100%">
+                <h4>Placeholder</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+          <!-- END GRID -->
+          </div>
+          
     </div>
 
 
     <div id="contact" class="container-fluid">
         <h1>Contact</h1>
+        <!-- add googlemaps to smartphone -->
         <div class="smartphone">
-                <div class="content">
-                </div>
-              </div>
+            <div class="content">
+            </div>
+        </div>
 
     </div>
     <div id="footer" class="container-fluid">
-        <footer>Coded with love, by Chelcie White <i class="fa fa-heart-o"></i></footer>
+        <footer>Coded with love, by Chelcie White
+            <i class="fa fa-heart-o"></i>
+        </footer>
     </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script> $(document).ready(function(){
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script> $(document).ready(function () {
             $("#hi").addClass("animated bounce");
         });
-            </script>
+    </script>
 
-            <!--added script to collapse the hamburger -->
-            <script>
-                $(document).click(function(e) {
-	if (!$(e.target).is('.navbar-nav')) {
-    	$('.collapse').collapse('hide');	    
-    }
-});
+    <!--added script to collapse the hamburger -->
+    <script>
+        $(document).click(function (e) {
+            if (!$(e.target).is('.navbar-nav')) {
+                $('.collapse').collapse('hide');
+            }
+        });
+    </script>
+    <script>
+            filterSelection("all")
+            function filterSelection(c) {
+              var x, i;
+              x = document.getElementsByClassName("column");
+              if (c == "all") c = "";
+              for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+              }
+            }
+            
+            function w3AddClass(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+              }
+            }
+            
+            function w3RemoveClass(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                }
+              }
+              element.className = arr1.join(" ");
+            }
+            
+            
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+              });
+            }
             </script>
 
 </body>
