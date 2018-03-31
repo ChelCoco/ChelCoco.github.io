@@ -47,12 +47,6 @@ p {
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: 'Cutive Mono', monospace;
-}
-
 /* Center website */
 .main {
     max-width: 1000px;
@@ -65,13 +59,13 @@ h1 {
 }
 
 .row {
-    margin: 10px -16px;
+    margin: 1px -6px; /* margin: 10px -16px; */
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-    padding: 8px;
+    padding: 2px;
 }
 
 /* Create three equal columns that floats next to each other */
