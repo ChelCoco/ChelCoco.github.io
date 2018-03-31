@@ -111,7 +111,9 @@ h1 {
   color: white;
 }
 
-
+#contacttext {
+    text-align: center;
+}
 
 
 /* The device with borders */
