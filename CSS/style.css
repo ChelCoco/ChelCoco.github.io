@@ -2,7 +2,7 @@ body {
     position: relative;
 }
 #welcome {padding-top:98px;height:700px;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
-#about {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color: #ffe4bc;}
+#about {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color: #ffe4bc;}
 #portfolio {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffddbc;}
 #contact {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffd5bc;}
 #footer {text-align:center; padding-top:10px;height:50px;color: #ffe4bc; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
@@ -52,6 +52,8 @@ p {
     -webkit-column-rule: 1px solid #666; /* Chrome, Safari, Opera */
     -moz-column-rule: 1px solid #666; /* Firefox */
     column-rule: 1px solid #666;
+    position: relative;
+    
 }
 
 
@@ -137,52 +139,6 @@ h1 {
 }
 
 
-/* The device with borders */
-.smartphone {
-    position: relative;
-    width: 260px;
-    height: 540px;
-    margin: auto;
-    border: 8px black solid;
-    border-top-width: 50px;
-    border-bottom-width: 50px;
-    border-radius: 26px;
-  }
   
-  /* The horizontal line on the top of the device */
-  .smartphone:before {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 5px;
-    position: relative;
-    top: -20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 10px;
-  }
-  
-  /* The circle on the bottom of the device */
-  .smartphone:after {
-    content: '';
-    display: block;
-    width: 27px;
-    height: 27px;
-    position: relative;
-    left: 50%;
-    bottom: -20px;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 50%;
-  }
-  
-  /* The screen (or content) of the device */
-  .smartphone .content {
-    width: 243px;
-    height: 435px;
-    background: white;
-  }
-
 
 
