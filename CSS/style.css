@@ -3,7 +3,7 @@ body {
 }
 #welcome {padding-top:98px;height:700px;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
 #about {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color: #ffe4bc;}
-#portfolio {padding-top:50px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffddbc;}
+#portfolio {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffddbc;}
 #contact {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffd5bc;}
 #footer {text-align:center; padding-top:10px;height:50px;color: #ffe4bc; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
 
@@ -11,9 +11,10 @@ body {
     font-family: 'Cutive Mono', monospace;
 }
 
-/* unvisited link */
+/* unvisited link removed default decoration*/
 #links:link {
     color: #ffddbc;
+    text-decoration: none;
 }
 
 /* visited link */
@@ -38,23 +39,9 @@ p {
 
 #abouth {
     border-bottom:double;
-    -webkit-column-span: all; /* Chrome, Safari, Opera */
-    column-span: all;
 }
 
-#aboutp {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
-    -webkit-column-rule: 1px solid #666; /* Chrome, Safari, Opera */
-    -moz-column-rule: 1px solid #666; /* Firefox */
-    column-rule: 1px solid #666;
-    position: relative;
-    
-}
+
 
 
 #skills {
@@ -62,7 +49,7 @@ p {
     font-family: 'Cutive Mono', monospace;
 }
 
-
+/* START of Portfolio filtering */
 
 * {
     box-sizing: border-box;
