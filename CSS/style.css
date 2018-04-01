@@ -36,6 +36,14 @@ p {
     font-family: 'Cutive Mono', monospace;
 }
 
+#abouth {
+    border-bottom:double;
+}
+
+/* #aboutp {
+    background-color: white;
+}  */
+
 #skills {
     font-size: 18px;
     font-family: 'Cutive Mono', monospace;
@@ -84,7 +92,7 @@ h1 {
 
 /* Content */
 .content {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     padding: 10px;
 }
 
