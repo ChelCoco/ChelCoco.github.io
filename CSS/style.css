@@ -2,10 +2,10 @@ body {
     position: relative;
 }
 #welcome {padding-top:98px;height:700px;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
-#about {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color: #ffe4bc;}
-#portfolio {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffddbc;}
-#contact {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #ffd5bc;}
-#footer {text-align:center; padding-top:10px;height:50px;color: #ffe4bc; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
+#about {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
+#portfolio {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #d8ccc0;}
+#contact {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #d8ccc0;}
+#footer {text-align:center; padding-top:10px;height:50px;color: #d8ccc0; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
 
 .navfont {
     font-family: 'Cutive Mono', monospace;
@@ -19,7 +19,7 @@ body {
 
 /* visited link */
 #links:visited {
-    color: #ff8b17;
+    color: #fff017;
 }
 
 /* mouse over link */
@@ -39,6 +39,7 @@ p {
 
 #abouth {
     border-bottom:double;
+    word-wrap: break-word;
 }
 
 
@@ -47,6 +48,23 @@ p {
 #skills {
     font-size: 18px;
     font-family: 'Cutive Mono', monospace;
+}
+/*gifs */
+.break {
+    background: white;
+    position: relative;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    padding-top: 10px;
+}
+
+#bee2 {
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 
 /* START of Portfolio filtering */
@@ -66,13 +84,13 @@ h1 {
     word-break: break-all;
 }
 
-.row {
+#rows {
     margin: 10px -6px; /* margin: 10px -16px; */
 }
 
 /* Add padding BETWEEN each column */
-.row,
-.row > .column {
+#rows,
+#rows > .column {
     padding: 2px;
 }
 
@@ -84,7 +102,7 @@ h1 {
 }
 
 /* Clear floats after rows */ 
-.row:after {
+#rows:after {
     content: "";
     display: table;
     clear: both;
