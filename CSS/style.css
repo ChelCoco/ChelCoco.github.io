@@ -133,9 +133,11 @@ h1 {
     text-align: center;
 }
 
-#break1 {
-    background-color: azure;
-    padding: 60px;
+#break2 {
+    background-color: white;
+    position: relative;
+    padding-top: 10px;
+    max-width:20%;
 }
 
   
