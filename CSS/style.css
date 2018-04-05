@@ -2,9 +2,9 @@ body {
     position: relative;
 }
 #welcome {padding-top:98px;height:700px;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
-#about {padding-top:50px;height:750px;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
-#portfolio {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #d8ccc0;}
-#contact {padding-top:70px;height:700px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #d8ccc0;}
+#about {padding-top:20px;height:auto;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
+#portfolio {padding-top:50px;height:auto;color: #141414; font-family: 'Poiret One', cursive; background-color:  #d8ccc0;}
+#contact {padding-top:70px;height:auto; color: #141414; font-family: 'Poiret One', cursive; background-color:  #d8ccc0;}
 #footer {text-align:center; padding-top:10px;height:50px;color: #d8ccc0; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
 
 .navfont {
@@ -48,7 +48,6 @@ body {
     padding-top: 14px;
     padding-right: 8px;
     padding-left: 8px;
-    background-color: #ffffff;
 }
 
 #skills {
@@ -62,7 +61,11 @@ p {
     font-family: 'Cutive Mono', monospace;
 }
 
-
+.divide{
+    background-color: #141414;
+    margin: auto;
+    height:60px;
+}
 /* START of Portfolio filtering */
 
 * {
