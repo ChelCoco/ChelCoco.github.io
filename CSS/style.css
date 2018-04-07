@@ -1,11 +1,11 @@
 body {
     position: relative;
 }
-#welcome {padding-top:98px;height:640px;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
+#welcome {padding-top:98px;height:640px;color:  #ffffff;; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
 #about {padding-top:50px;height:850px;color: #141414; font-family: 'Poiret One', cursive; background-color: #EEE592;}
-#portfolio {padding-top:50px;height:auto;color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
+#portfolio {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
 #contact {padding-top:70px;height:500px; color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
-#footer {text-align:center; padding-top:10px;height:50px;color: #d8ccc0; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
+#footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
 
 .navfont {
     font-family: 'Cutive Mono', monospace;
