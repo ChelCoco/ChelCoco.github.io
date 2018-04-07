@@ -65,9 +65,26 @@
                         <i class="fa fa-linkedin" style="font-size:25px;"></i>
                     </a>
                 </p>
-                <div class="hexagon">
-                    <img src="images/hex.jpeg" class="img-responsive">
+                <div class="hexagon" class="slideshow-container">
+
+                    <div class="mySlides fade">
+                            <img src="images/hex.jpeg" class="img-responsive">
+                          </div>
+                          
+                          <div class="mySlides fade">
+                            <img src="images/hex2.jpeg" class="img-responsive">
+                          </div>
+                          
+                          <div class="mySlides fade">
+                            <img src="images/hex3.jpeg" class="img-responsive">
+                          </div>
+
                 </div>
+                <div>
+                        <span class="slide"></span> 
+                        <span class="slide"></span> 
+                        <span class="slide"></span> 
+                      </div>
     </div>
     <div id="about" class="container-fluid">
         <h1 id="abouth">About Me</h1>
@@ -277,6 +294,27 @@
                 this.className += " active";
             });
         }
+    </script>
+    <script>
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var slide = document.getElementsByClassName("slide");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < slide.length; i++) {
+        slide[i].className = slide[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    slide[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
     </script>
 
 </body>

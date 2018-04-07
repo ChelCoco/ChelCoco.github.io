@@ -1,7 +1,7 @@
 body {
     position: relative;
 }
-#welcome {padding-top:98px;height:auto;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
+#welcome {padding-top:98px;height:640px;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
 #about {padding-top:50px;height:850px;color: #141414; font-family: 'Poiret One', cursive; background-color: #EEE592;}
 #portfolio {padding-top:50px;height:auto;color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
 #contact {padding-top:70px;height:500px; color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
@@ -43,6 +43,28 @@ body {
 .hexagon img{
     margin: 0 auto; /* 0 = top and bottom auto= left and right*/
 }
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.0s;
+    animation-name: fade;
+    animation-duration: 2.0s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .3} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .3} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+  }
 
 /*hex end */
 
