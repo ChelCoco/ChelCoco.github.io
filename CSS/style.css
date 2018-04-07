@@ -1,10 +1,10 @@
 body {
     position: relative;
 }
-#welcome {padding-top:98px;height:700px;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
-#about {padding-top:50px;height:auto;color: #141414; font-family: 'Poiret One', cursive; background-color: #d8ccc0;}
-#portfolio {padding-top:50px;height:auto;color: #141414; font-family: 'Poiret One', cursive; background-color:  #d8ccc0;}
-#contact {padding-top:70px;height:500px; color: #141414; font-family: 'Poiret One', cursive; background-color:  #d8ccc0;}
+#welcome {padding-top:98px;height:auto;color:  #d8ccc0; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
+#about {padding-top:50px;height:850px;color: #141414; font-family: 'Poiret One', cursive; background-color: #EEE592;}
+#portfolio {padding-top:50px;height:auto;color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
+#contact {padding-top:70px;height:500px; color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
 #footer {text-align:center; padding-top:10px;height:50px;color: #d8ccc0; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
 
 .navfont {
@@ -33,10 +33,25 @@ body {
 }
 
 
+/*adding hexagons*/
+
+.hexagon {
+   padding-top: 3px;
+   padding-bottom: 12px;
+}
+
+.hexagon img{
+    margin: 0 auto; /* 0 = top and bottom auto= left and right*/
+}
+
+/*hex end */
+
+
+
 #abouth {
-    border-bottom:double;
+    border-bottom:solid;
     word-wrap: break-word;
-    border-width:10px;
+    border-width: 2px;
 }
 
 
@@ -49,6 +64,7 @@ body {
     padding-right: 8px;
     padding-left: 8px;
 }
+
 
 #skills {
     font-size: 18px;
@@ -103,7 +119,7 @@ h1 {
 /* Clear floats after rows */ 
 #rows:after {
     content: "";
-    display: table;
+    display: table; /* Make the container element behave like a table */
     clear: both;
 }
 
@@ -142,12 +158,7 @@ h1 {
     text-align: center;
 }
 
-#break2 {
-    background-color: white;
-    position: relative;
-    max-width: 20%;
-    padding-top:10px;
-}
+
 
   
 
