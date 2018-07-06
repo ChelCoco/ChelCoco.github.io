@@ -1,186 +1,35 @@
-body {
-    position: relative;
-}
-#welcome {padding-top:98px;height:700px;color:  #ffffff;; font-family: 'Fredericka the Great', cursive; background-color: #141414; text-align: center;}
-#about {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; background-color: #EEE592;}
-#portfolio {padding-top:50px;height:920px;color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
-#contact {padding-top:70px;height:600px; color: #141414; font-family: 'Poiret One', cursive; background-color:  #EEE592;}
-#footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;; font-family: 'Poiret One', cursive; font-size:20px; background-color: #141414;}
+#welcome {padding-top:98px;height:700px;color:  #ffffff;; font-family: 'Fredericka the Great', cursive; z-index: 10; background-color: #141414; text-align: center;}
+#about {padding-top:50px;height:900px;color: #141414; font-family: 'Poiret One', cursive; z-index: 10; background-color: #eeece0;}
+#portfolio {padding-top:50px;height:920px;color: #141414; font-family: 'Poiret One', cursive; z-index: 10; background-color:  rgb(77, 76, 71);}
+#footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;; font-family: 'Poiret One', cursive; z-index: 10; font-size:20px; background-color: #141414;}
 
-.navfont {
-    font-family: 'Cutive Mono', monospace;
-}
-
-/* unvisited link removed default decoration*/
-#links:link {
-    color: #ffddbc;
-    text-decoration: none;
-}
-
-/* visited link */
-#links:visited {
-    color: #fff017;
-}
-
-/* mouse over link */
-#links:hover {
-    color: hotpink;
-}
-
-/* selected link */
-#links:active {
-    color: #f7f306;
-}
+@import "compass/css3"; /*imports http://compass-style.org/reference/compass/css3/*/
 
 
-/*adding hexagons*/
-
-.hexagon {
-   padding-top: 3px;
-   padding-bottom: 12px;
-}
-
-.hexagon img{
-    margin: 0 auto; /* 0 = top and bottom auto= left and right*/
-}
-
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 2.0s;
-    animation-name: fade;
-    animation-duration: 2.0s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .3} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .3} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-  }
-
-/*hex end */
-
-
-
-#abouth {
-    border-bottom:solid;
-    word-wrap: break-word;
-    border-width: 2px;
+#background1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120%;
+    width: 100%;
+    background: transparent;
+    background-size: cover;
+    -webkit-background-size: cover;
+    overflow: hidden;
+    z-index: 1; /*Because the image has a z-index of 1, it will be placed on top of the luciernagas.*/
 }
 
 
 
-
-/*gifs */
-.break {
-    position: relative;
-    padding-top: 14px;
-    padding-right: 8px;
-    padding-left: 8px;
+.luciernagas {
+    position: absolute;
+    margin-top:250px; 
+    bottom: 100px;
+    left: 350px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(195, 243, 21, 0.719);
+    box-shadow: 0px 0px 10px rgba(243, 247, 8, 0.75);
 }
-
-
-#skills {
-    font-size: 18px;
-    font-family: 'Cutive Mono', monospace;
-}
-
-
-p {
-    font-size: 20px;
-    font-family: 'Cutive Mono', monospace;
-}
-
-.divide{
-    background-color: #141414;
-    margin: auto;
-    height:60px;
-}
-/* START of Portfolio filtering */
-
-* {
-    box-sizing: border-box;
-}
-
-/* Center website */
-.main {
-    max-width: 300px;    /* org 1000px  */
-    margin: auto;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-#rows {
-    margin: 10px -6px; /* margin: 10px -16px; */
-}
-
-/* Add padding BETWEEN each column */
-#rows,
-#rows > .column {
-    padding: 2px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    display: none; /* Hide all elements by default */
-}
-
-/* Clear floats after rows */ 
-#rows:after {
-    content: "";
-    display: table; /* Make the container element behave like a table */
-    clear: both;
-}
-
-/* Content */
-.content {
-    background-color: white;
-    padding: 10px;
-    font-family: 'Cutive Mono', monospace;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border-color: #5c5757;
-  outline: none;
-  padding: 10px 10px;
-  background-color: white;
-  cursor: pointer;
-  font-family: 'Cutive Mono', monospace;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-
-#contacttext {
-    text-align: center;
-}
-
-
-
-  
-
 

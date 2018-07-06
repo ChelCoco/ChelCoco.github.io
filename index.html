@@ -2,320 +2,77 @@
 <html lang="en">
 
 <head>
-
-    <title>
-        Chelcie White
-    </title>
+    <title>MyWeb</title>
     <meta charset="utf-8">
     <!-- viewport is the users visible area of a webpage, viewport varies with the device-->
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="images/project1.svg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Poiret+One|Cutive+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-        crossorigin="anonymous">
+    <link rel="stylesheet" src="/js/javascript.js">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- add logo to nav-bar -->
-                <a class="navbar-brand" href="#">CW</a>
-            </div>
-            <div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="#welcome" class="navfont">Welcome</a>
-                        </li>
-                        <li>
-                            <a href="#about" class="navfont">About Me</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio" class="navfont">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="navfont">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <div id="welcome" class="container-fluid">
-                <h1>Hi there! I'm Chelcie.</h1>
-                <p>
-                    <a href="https://github.com/ChelWhite" target="_blank" id="links">
-                        <i class="fa fa-github" style="font-size:25px;"></i>
-                    </a>
-                    <a href="https://www.instagram.com/chelciejessica/" target="_blank" id="links">
-                        <i class="fa fa-instagram" style="font-size:25px;"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/chelcie-white-46422455/" target="_blank" id="links">
-                        <i class="fa fa-linkedin" style="font-size:25px;"></i>
-                    </a>
-                </p>
-                <div class="hexagon" class="slideshow-container">
-
-                    <div class="mySlides fade">
-                            <img src="images/hex.jpeg" class="img-responsive">
-                          </div>
-                          
-                          <div class="mySlides fade">
-                            <img src="images/hex2.jpeg" class="img-responsive">
-                          </div>
-                          
-                          <div class="mySlides fade">
-                            <img src="images/hex3.jpeg" class="img-responsive">
-                          </div>
-
-                </div>
-                <div>
-                        <span class="slide"></span> 
-                        <span class="slide"></span> 
-                        <span class="slide"></span> 
-                      </div>
+<body>
+    <h1> Title </h1>
+    <div id="welcome">
+        <p>
+            Hi There! I'm Chelcie
+        </p>
+    </div>
+    <div id="background1">
+        <div class="luciernagas" data-parallaxify-range="320"></div>
     </div>
     <div id="about" class="container-fluid">
-        <h1 id="abouth">About Me</h1>
-        <div class="break" class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <p>I created this website to keep track of my works and progress.
-                    </p>
-                    <h2>Skills</h2>
-                    <ul id="skills">
-                        <li>
-                            consectetur
-                        </li>
-                        <li>
-                            adipiscing
-                        </li>
-                        <li>
-                            elit
-                        </li>
-                        <li>
-                            sunt
-                        </li>
-                        <li>
-                            non
-                        </li>
-                        <li>
-                            dolor
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <p>
-                        <img src="images/Bees2.gif" class="img-responsive">
-
-                    </p>
-                    <!-- class applies display: block; and max-width: 100%; and height: auto; to the image:-->
-                </div>
-            </div>
-        </div>
+        <p>This is the about page.</p>
     </div>
-    <div class="divide" class="container-fluid">
-        <p></p>
+    <div id="portfolio">
+        <p>portfolio</p>
     </div>
-    <div id="portfolio" class="container-fluid">
-        <h1>Portfolio</h1>
-        <!-- try to add portfolio with filtering-->
-        <div id="myBtnContainer">
-            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-            <button class="btn" onclick="filterSelection('websites')"> Websites</button>
-            <button class="btn" onclick="filterSelection('projects')"> Projects</button>
-            <button class="btn" onclick="filterSelection('illustrations')"> Illustrations</button>
-        </div>
-
-        <!-- Portfolio Gallery Grid -->
-        <div class="row" id="rows">
-            <div class="column websites">
-                <div class="content">
-                    <img src="#" alt="website1" style="width:100%">
-                    <h4>Website 1</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-            <div class="column websites">
-                <div class="content">
-                    <img src="#" alt="website2" style="width:100%">
-                    <h4>Website 2</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-            <div class="column websites">
-                <div class="content">
-                    <img src="#" alt="website3" style="width:100%">
-                    <h4>Website 3</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-
-            <div class="column projects">
-                <div class="content">
-                    <a href="https://codepen.io/ChelCoCo/full/zRXJoN/" target="_blank">
-                        <img src="#" alt="projects1" style="width:100%">
-                        <h4>Tribute Page</h4>
-                        <p>For Gertrudis Bocanegra</p>
-                    </a>
-                </div>
-            </div>
-            <div class="column projects">
-                <div class="content">
-                    <img src="#" alt="projects2" style="width:100%">
-                    <h4>Projects 2</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-            <div class="column projects">
-                <div class="content">
-                    <img src="#" alt="projects3" style="width:100%">
-                    <h4>Projects 3</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-
-            <div class="column illustrations">
-                <div class="content">
-                    <img src="#" alt="illustration1" style="width:100%">
-                    <h4>Illustration 1</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div> To view more illustrations please check out my instagram account.
-            </div>
-            <div class="column illustrations">
-                <div class="content">
-                    <img src="#" alt="illustration2" style="width:100%">
-                    <h4>Illustration 2</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-            <div class="column illustrations">
-                <div class="content">
-                    <img src="#" alt="illustrations3" style="width:100%">
-                    <h4>Illustration 3</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-
-            </div>
-            <!-- END GRID -->
-        </div>
+    <div id="footer">
 
     </div>
-    <div class="divide" class="container-fluid">
-        <p></p>
-    </div>
-    <div id="contact" class="container-fluid">
-        <h1>Contact</h1>
-        <div class="row">
-            <div class="col-md-12 col-xs-12">
-                <p id="contacttext">
-                    <b>I'm currently not accepting projects.</b>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://hwthorn.github.io/parallaxify/javascripts/jquery.parallaxify.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script>
+    $(function () {
+    $(document).ready(function () {
+        var i,
+            size,
+            color,
+            width = $(document).width(),
+            height = $(document).height();
 
-                </p>
-            </div>
-        </div>
-        <br>
+        for (i = 1; i <= 150; i++) {
+            size = Math.ceil(3 * Math.random());
+            $('#background1').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(100 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px;"></div>');
+        }
 
-        <br>
-        <!-- add googlemaps-->
-    </div>
-    <div id="footer" class="container-fluid">
-        <footer>Coded with love, by Chelcie White
-            <i class="fa fa-heart-o"></i>
-        </footer>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script> $(document).ready(function () {
-            $("#hi").addClass("animated bounce");
+        for (i = 1; i <= 30; i++) {
+            size = Math.ceil(5 * Math.random()) + 2;
+            $('#background1').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(400 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px;"></div>');
+        }
+
+        for (i = 1; i <= 15; i++) {
+            size = Math.ceil(5 * Math.random()) + 5;
+            color = 'rgba(' + Math.round(75 * Math.random()) + ', ' + Math.round(175 * Math.random()) + ', ' + Math.round(4 * Math.random()) + ', ' + (Math.round(100 * Math.random()) / 100) + ')';
+            $('#background1').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(600 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px; background1: ' + color + '; box-shadow: 0px 0px 10px ' + color + ';"></div>');
+        }
+
+        $.parallaxify({
+           				positionProperty: 'transform',
+                        responsive: true,
+                        motionType: 'natural',
+                        mouseMotionType: 'gaussian',
+                        motionAngleX: 50,
+                        motionAngleY: 60,
+                        alphaFilter: 0.5,
+                        adjustBasePosition: true,
+                        alphaPosition: 0.025,
         });
-    </script>
+       
+    });
+}); // */
+</script>
 
-    <!--added script to collapse the hamburger -->
-    <script>
-        $(document).click(function (e) {
-            if (!$(e.target).is('.navbar-nav')) {
-                $('.collapse').collapse('hide');
-            }
-        });
-    </script>
-    <script>
-        filterSelection("all")
-        function filterSelection(c) {
-            var x, i;
-            x = document.getElementsByClassName("column");
-            if (c == "all") c = "";
-            for (i = 0; i < x.length; i++) {
-                w3RemoveClass(x[i], "show");
-                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-            }
-        }
-
-        function w3AddClass(element, name) {
-            var i, arr1, arr2;
-            arr1 = element.className.split(" ");
-            arr2 = name.split(" ");
-            for (i = 0; i < arr2.length; i++) {
-                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
-            }
-        }
-
-        function w3RemoveClass(element, name) {
-            var i, arr1, arr2;
-            arr1 = element.className.split(" ");
-            arr2 = name.split(" ");
-            for (i = 0; i < arr2.length; i++) {
-                while (arr1.indexOf(arr2[i]) > -1) {
-                    arr1.splice(arr1.indexOf(arr2[i]), 1);
-                }
-            }
-            element.className = arr1.join(" ");
-        }
-
-
-        // Add active class to the current button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function () {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
-            });
-        }
-    </script>
-    <script>
-        var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var slide = document.getElementsByClassName("slide");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < slide.length; i++) {
-        slide[i].className = slide[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    slide[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-    </script>
 
 </body>
 
