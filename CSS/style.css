@@ -80,7 +80,7 @@
     width: 300px;
     height: 300px;
     padding-top: 5px;
-    border: 2px solid rgb(230, 182, 92);
+    border: 2px solid rgb(224, 161, 44);
     box-shadow: 0 0 50px rgb(248, 242, 242);
     animation: pulsate 2s ease-out infinite;
 }
