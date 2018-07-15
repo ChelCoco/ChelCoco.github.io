@@ -64,11 +64,15 @@
     }
   }
 
+/* global class*/
 
+.no-padding{
+    padding: 0 !important;
+}
 
 /* Adding Moon with pulse*/
 #luna {
-    background: url(../images/moon.jpg) no-repeat;
+    background: url(../images/moon1.png) no-repeat;
     background-position: center;
     margin: auto;
     background-size: 120%;
@@ -99,20 +103,16 @@
     font-family: 'Rock Salt', cursive;
     text-align: right;
     font-size: 35px;
-    padding-right: 120px;
 }
 
 #me {
     max-width: 100%;
-    padding-left:35%;
-    padding-top: 25%;
 }
 
 
 
-#background1 {
-    position: absolute;
-    top: 0;
+ #background1 {
+    position: relative;
     left: 0;
     height: 130%;
     width: 100%;
@@ -120,15 +120,15 @@
     background-size: cover;
     -webkit-background-size: cover;
     overflow: hidden;
-    z-index: 1; /*Because the image has a z-index of 1, it will be placed on top of the luciernagas.*/
-}
+    z-index: 1;  /*Because the image has a z-index of 1, it will be placed on top of the luciernagas.*/
+} 
 
 
 
 .luciernagas {
     position: absolute;
-    margin-top:250px; 
-    bottom: 100px;
+    /*margin-top:250px; */
+   /* bottom: 100px;*/
     left: 350px;
     width: 8px;
     height: 8px;
@@ -138,8 +138,7 @@
 }
 
 #welcomeBorder {
-    border-bottom: 10
-    px solid rgba(109, 19, 39, 0.719);
+    border-bottom: 7px solid rgba(109, 19, 39, 0.719);
 }
 
 #heading1 {
@@ -160,18 +159,6 @@
     border-width: 3em;
     font-size: 2em;
     border-style: solid;
-    border-image: url(../images/bordado.png) 40% repeat;
-    margin-left: -2.5em;
-    /*background-color: #e0c761;*/
+    border-image: url(../images/bordado1.png) 40% repeat;
 }
 
-
-
-#border2 {
-    background-image: url("../images/flores.png");
-    background-repeat: no-repeat;
-    background-position: center; 
-    height: 300px;
-  
-    
-}
