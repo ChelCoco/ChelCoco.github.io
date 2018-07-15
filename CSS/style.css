@@ -1,6 +1,6 @@
 #welcome {height:950px;color:  #ffffff; z-index: 10; background-color: #141414;}
-#about {padding-top:50px;height:900px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53;font-family: 'Pacifico', cursive;}
-#portfolio {padding-top:50px;height:920px;color: #e0dcdc;  z-index: 10; background-color:  #1f1e1e; font-family: 'Pacifico', cursive;
+#about {height:1020px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53; font-family: 'Pacifico', cursive;}
+#portfolio {padding-top:10px;height:920px;color: #e0dcdc;  z-index: 10; background-color:  #1f1e1e; font-family: 'Pacifico', cursive;
 }
 #footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;z-index: 10; font-size:20px; background-color: #97191993;}
 
@@ -143,22 +143,29 @@
 
 #heading1 {
     text-align: center;   
+    font-size: 50px;
 }
 
 #line {
     background-color: rgb(218, 196, 112);
     display: block;
     width: 260px;
-    height: 45px;
+    height: 53px;
     margin: auto;
     border-radius: 50%;
 }
 
 #aboutBorder {
-    margin-top:40px;
-    border-width: 3em;
-    font-size: 2em;
+    margin-top:20px;
+    border-width: 55px;
+    /*border-width: 4em;*/
+    font-size: 15px;
+    /* font-size: 1em;*/
     border-style: solid;
     border-image: url(../images/bordado1.png) 40% repeat;
+}
+
+#dev {
+    font-size: 16px;
 }
 
