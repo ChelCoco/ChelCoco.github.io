@@ -1,5 +1,5 @@
-#welcome {height:950px;color:  #ffffff; z-index: 10; background-color: #141414;}
-#about {height:1020px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53; font-family: 'Pacifico', cursive;}
+#welcome {height:960px;color:  #ffffff; z-index: 10; background-color: #141414;}
+#about {height:950px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53; font-family: 'Pacifico', cursive;}
 #portfolio {padding-top:10px;height:920px;color: #e0dcdc;  z-index: 10; background-color:  #1f1e1e; font-family: 'Pacifico', cursive;
 }
 #footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;z-index: 10; font-size:20px; background-color: #97191993;}
@@ -7,8 +7,9 @@
 @import "compass/css3"; /*imports http://compass-style.org/reference/compass/css3/*/
 
 .topnav {
-    background-color: #141414;
     overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    background-color: #141414;;
 }
 
 /*link style */
@@ -30,7 +31,7 @@
 
 /* highlight the current page*/
 .active {
-    background-color: #4c4c4c;
+    background-color: #916b19;
     color: white;
 
 }
@@ -99,6 +100,7 @@
 
 
 #greeting {
+    padding-top:12px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Rock Salt', cursive;
     text-align: right;
@@ -107,6 +109,7 @@
 
 #me {
     max-width: 100%;
+    padding-bottom:25px;
 }
 
 
@@ -158,14 +161,29 @@
 #aboutBorder {
     margin-top:20px;
     border-width: 55px;
-    /*border-width: 4em;*/
-    font-size: 15px;
-    /* font-size: 1em;*/
     border-style: solid;
     border-image: url(../images/bordado1.png) 40% repeat;
 }
 
-#dev {
-    font-size: 16px;
+#paragraph {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
+#dev {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#portfolioBorder {
+    border-bottom: 35px solid rgba(109, 19, 39, 0.719);
+
+}
+
+.footer {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
