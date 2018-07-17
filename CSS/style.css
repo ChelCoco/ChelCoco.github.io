@@ -1,6 +1,6 @@
 #welcome {height:960px;color:  #ffffff; z-index: 10; background-color: #141414; }
 #about {height:950px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53; font-family: 'Pacifico', cursive;}
-#portfolio {padding-top:10px;height:920px;color: #e0dcdc;  z-index: 10; background-color:  #1f1e1e; background: url(../images/frijoles01.png) repeat;}
+#portfolio {padding-top:10px;height:920px;color: #e0dcdc;  z-index: 10; background-color:  #1f1e1e;}
 #footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;z-index: 10; font-size:20px; background-color: #97191993;}
 
 @import "compass/css3"; /*imports http://compass-style.org/reference/compass/css3/*/
@@ -200,7 +200,7 @@ font-size:50px;
 
 
 .portfolioInfo {
-    
+
     
 }
 
