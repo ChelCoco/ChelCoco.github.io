@@ -13,46 +13,59 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
 
 </head>
 
 <body>
     <!--Navigation tab, loads icon library to show hamburger menu on small screens-->
-    <div class="topnav" id="myTopnav">
+    <div class="topnav" id="myTopnav" class="collapse">
+        <a class="navbar-brand" href="#">C . J . W</a>
         <a href="#welcome" class="active">Welcome</a>
         <a href="#about">About</a>
         <a href="#portfolio">Portfolio</a>
+        <a href="https://github.com/ChelWhite" target="_blank" id="links">
+            <i class="fa fa-github" style="font-size:25px;"></i>
+        </a>
+        <a href="https://www.instagram.com/chelciejessica/" target="_blank" id="links">
+            <i class="fa fa-instagram" style="font-size:25px;"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/chelcie-white-46422455/" target="_blank" id="links">
+            <i class="fa fa-linkedin" style="font-size:25px;"></i>
+        </a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <!--class=icon used to open and close the topnav on small screens -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+            <!--hamburger-->
             <i class="fa fa-bars"></i>
         </a>
+
     </div>
+
     <div id="welcome">
         <div class="container">
-            <div class="col-sm-12">
-                <div id="luna" class="img-responsive center-block">
-
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <div id="greeting">
-                    <p>
-                        Hi There! I'm Chelcie
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <div class="luciernagas" data-parallaxify-range="320"></div>
-                <div id="background1">
-                    <div id="me">
-                        <img src="images/me3.png" alt=me class="img-responsive center-block">
+                <div class="col-sm-12">
+                    <div id="luna" class="img-responsive center-block">
 
                     </div>
-
                 </div>
-            </div>
+                <div class="col-sm-12">
+                    <div id="greeting">
+                        <p>
+                            Hi There! I'm Chelcie
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="luciernagas" data-parallaxify-range="320"></div>
+                    <div id="background1">
+                        <div id="me">
+                            <img src="images/me3.png" alt=me class="img-responsive center-block">
+                        </div>
+
+                    </div>
+                </div>
+            
         </div>
     </div>
     <div id="welcomeBorder"></div>
@@ -64,16 +77,18 @@
                 <h1 id="heading1"> About Me </h1>
             </span>
         </div>
-        <div class="col-sm-12 no-padding">
+
+        <div class="col-sm-12 col-md-12 no-padding">
             <div id="aboutBorder">
 
                 <h3 id="paragraph"> I was born in Mexico but raised in the US, Singapore and Belgium. I currently live in the U.S where I'm trying
-                    to get back to my roots by researching and incorporating mexican culture in my projects.
+                    to get back to my roots by experiencing, researching and incorporating mexican culture in my projects.
                 </h3>
 
             </div>
         </div>
-        <div class="col-sm-6">
+
+        <div class="col-sm-6 col-md-6">
             <div id="dev">
                 <h3>Front-end Development</h3>
                 <ul>
@@ -84,7 +99,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-md-6">
             <div id="dev">
                 <h3>Front-end libraries</h3>
                 <ul>
@@ -96,6 +111,9 @@
                 </ul>
             </div>
         </div>
+
+
+
         <div id="border2">
             <div class="col-sm-12">
                 <img src="images/flores1.png" alt="flowers" class="img-responsive center-block">
@@ -108,8 +126,11 @@
     </div>
     <div id="portfolioBorder"></div>
     <div id="portfolio">
-        <h1>Portfolio</h1>
-        <p>portfolio</p>
+        <h1 id="heading2">Portfolio</h1>
+ 
+
+    </div>
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://hwthorn.github.io/parallaxify/javascripts/jquery.parallaxify.min.js"></script>
@@ -166,10 +187,19 @@
         }
     </script>
 
-    
+    <!--added script to collapse the hamburger -->
+    <script>
+        $(document).click(function (e) {
+            if (!$(e.target).is('.topnav')) {
+                $('.collapse').collapse('hide');
+            }
+        });
+    </script>
 
 
 </body>
-<div id="footer"> Coded with love by Chelcie </div>
+<div id="footer"> Coded with love by Chelcie
+    <i class="fa fa-heart-o"></i>
+</div>
 
 </html>
