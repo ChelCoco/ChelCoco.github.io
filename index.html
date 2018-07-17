@@ -20,8 +20,8 @@
 
 <body>
     <!--Navigation tab, loads icon library to show hamburger menu on small screens-->
-    <div class="topnav" id="myTopnav" class="collapse">
-        <a class="navbar-brand" href="#">C . J . W</a>
+    <div class="topnav" id="myTopnav">
+        <span class="navbar-brand" style="color:white">C . J . W</span>
         <a href="#welcome" class="active">Welcome</a>
         <a href="#about">About</a>
         <a href="#portfolio">Portfolio</a>
@@ -35,7 +35,7 @@
             <i class="fa fa-linkedin" style="font-size:25px;"></i>
         </a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <!--hamburger-->
+            <!--- hamburger-->
             <i class="fa fa-bars"></i>
         </a>
 
@@ -43,29 +43,34 @@
 
     <div id="welcome">
         <div class="container">
-                <div class="col-sm-12">
-                    <div id="luna" class="img-responsive center-block">
+            <div class="col-sm-12 col-md-8 col-lg-8">
+                <div id="luna" class="img-responsive center-block">
+
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div id="greeting">
+                    <p>
+                        Hi There! I'm Chelcie
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="luciernagas" data-parallaxify-range="320"></div>
+                <div id="background1">
+                    <div id="me">
+
+
+                        <img src="images/me3.png" alt=me class="img-responsive center-block">
+
 
                     </div>
-                </div>
-                <div class="col-sm-12">
-                    <div id="greeting">
-                        <p>
-                            Hi There! I'm Chelcie
-                        </p>
 
-                    </div>
                 </div>
-                <div class="col-sm-12">
-                    <div class="luciernagas" data-parallaxify-range="320"></div>
-                    <div id="background1">
-                        <div id="me">
-                            <img src="images/me3.png" alt=me class="img-responsive center-block">
-                        </div>
+            </div>
 
-                    </div>
-                </div>
-            
         </div>
     </div>
     <div id="welcomeBorder"></div>
@@ -88,7 +93,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-6 col-lg-3">
             <div id="dev">
                 <h3>Front-end Development</h3>
                 <ul>
@@ -99,7 +104,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-6 col-lg-6">
             <div id="dev">
                 <h3>Front-end libraries</h3>
                 <ul>
@@ -127,7 +132,16 @@
     <div id="portfolioBorder"></div>
     <div id="portfolio">
         <h1 id="heading2">Portfolio</h1>
- 
+        <div class="portfolioInfo">
+            <div class="container">
+                <div class="col-sm-6">
+                    <p>
+                        test test.
+                    </p>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
@@ -186,16 +200,6 @@
             }
         }
     </script>
-
-    <!--added script to collapse the hamburger -->
-    <script>
-        $(document).click(function (e) {
-            if (!$(e.target).is('.topnav')) {
-                $('.collapse').collapse('hide');
-            }
-        });
-    </script>
-
 
 </body>
 <div id="footer"> Coded with love by Chelcie
