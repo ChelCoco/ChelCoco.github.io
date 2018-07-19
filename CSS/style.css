@@ -8,6 +8,7 @@
 .navbar-brand {
     font-family: 'Rock Salt', cursive;
     font-weight:bold;
+    color:white;
 }
 
 .topnav {
@@ -63,6 +64,7 @@
       top: 0;
     }
     .topnav.responsive a {
+    margin-bottom: 2px;
       float: none;
       display: block;
       text-align: left;
@@ -172,6 +174,7 @@
     border-width: 55px;
     border-style: solid;
     border-image: url(../images/bordado1.png) 40% repeat;
+    text-align: center;
 }
 
 #paragraph {
@@ -184,6 +187,7 @@
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    padding-top: 20px;
 }
 
 #heading2 {
