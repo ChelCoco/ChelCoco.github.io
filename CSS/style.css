@@ -1,3 +1,5 @@
+
+
 #welcome {height:960px;color:  #ffffff; z-index: 10; background-color: #141414; }
 #about {height:950px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53; font-family: 'Pacifico', cursive;}
 #portfolio {padding-top:10px;height:920px;color: #e0dcdc;  z-index: 10; background-color:  #1f1e1e;}
@@ -155,27 +157,31 @@
     border-bottom: 7px solid rgba(109, 19, 39, 0.719);
 }
 
+
 #heading1 {
-    text-align: center;   
-    font-size: 50px;
+    text-align: center;  
+    padding-top:60px; 
+    font-size: 120px;
+    color:rgb(53, 12, 54)
+
+
+    
 }
 
 #line {
     background-color: rgb(218, 196, 112);
     display: block;
-    width: 260px;
-    height: 53px;
-    margin: auto;
+    /*width: 260px;
+    margin: auto;*/
+    height: 270px;
     border-radius: 50%;
 }
 
-#aboutBorder {
-    margin-top:20px;
-    border-width: 55px;
-    border-style: solid;
-    border-image: url(../images/bordado1.png) 40% repeat;
-    text-align: center;
+#paragraph {
+    padding-top:50px;
+    color:rgb(53, 12, 54)
 }
+
 
 #paragraph {
     font-size: 20px;
@@ -187,8 +193,16 @@
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 15px;
+    color:rgb(53, 12, 54)
+    
 }
+
+#devFont{
+    font-weight: bold;
+    color: rgb(148, 57, 24);
+}
+
 
 #heading2 {
     font-family: 'Pacifico', cursive;
@@ -196,6 +210,7 @@ text-align:center;
 font-size:50px;
 
 }
+
 
 #portfolioBorder {
     border-bottom: 35px solid rgba(109, 19, 39, 0.719);
