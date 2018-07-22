@@ -143,9 +143,8 @@
 /* fireflies start here */
 .luciernagas {
     position: absolute;
-    /*margin-top:250px; */
-   /* bottom: 100px;*/
-   /* left: 350px; */
+   bottom: 100px;
+   left: 350px;
     width: 8px;
     height: 8px;
     border-radius: 50%;
