@@ -142,7 +142,7 @@
 
 /* fireflies start here */
 .luciernagas {
-    position: absolute;
+    position: absolute; /*fixed*/
     /*margin-top:250px; */
    /* bottom: 100px;*/
    /* left: 350px; */
@@ -162,7 +162,7 @@
     text-align: center;  
     padding-top:60px; 
     font-size: 120px;
-    color:rgb(53, 12, 54)
+    color:rgb(53, 12, 54);
 
 
     
@@ -181,7 +181,7 @@
 #paragraph {
     padding-top:50px;
     word-wrap: normal;
-    width:80%;
+    width:50%;
     margin:auto;
     color:rgb(53, 12, 54)
  
@@ -201,7 +201,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding-top: 5px; 
-    color:rgb(53, 12, 54)
+    color:rgb(53, 12, 54);
    
     
 }
