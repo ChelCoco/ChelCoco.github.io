@@ -1,7 +1,7 @@
 
 
 #welcome {height:960px;color:  #ffffff; z-index: 10; background-color: #141414; }
-#about {height:950px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53; font-family: 'Pacifico', cursive;}
+#about {height:1200px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53; font-family: 'Pacifico', cursive;}
 #portfolio {padding-top:10px;height:920px;color: #e0dcdc;  z-index: 10; background-color:  #1f1e1e;}
 #footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;z-index: 10; font-size:20px; background-color: #97191993;}
 
@@ -154,7 +154,7 @@
 }
 
 #welcomeBorder {
-    border-bottom: 7px solid rgba(109, 19, 39, 0.719);
+    border: 25px solid rgba(109, 19, 39, 0.719);
 }
 
 
@@ -177,9 +177,16 @@
     border-radius: 50%;
 }
 
+
 #paragraph {
     padding-top:50px;
+    word-wrap: normal;
+    width:80%;
+    margin:auto;
     color:rgb(53, 12, 54)
+ 
+    
+    
 }
 
 
@@ -193,8 +200,9 @@
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    padding-top: 15px;
+    padding-top: 5px; 
     color:rgb(53, 12, 54)
+   
     
 }
 
@@ -213,18 +221,14 @@ font-size:50px;
 
 
 #portfolioBorder {
-    border-bottom: 35px solid rgba(109, 19, 39, 0.719);
+    border: 35px solid rgba(109, 19, 39, 0.719);
 
 }
 
-
-.portfolioInfo {
-
-    
-}
 
 .footer {
      font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+
 }
