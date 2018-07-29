@@ -1,9 +1,9 @@
 
 
-#welcome {height:960px;color:  #ffffff; z-index: 10; background-color: #141414; }
-#about {height:1300px; color: #1b1a1a; z-index: 10; background-color:  #d6bc53; font-family: 'Pacifico', cursive;}
-#portfolio {padding-top:10px;height:920px;color: #e0dcdc;  z-index: 10; background-color:  #1f1e1e;}
-#footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;z-index: 10; font-size:20px; background-color: #97191993;}
+#welcome {height:960px;color:  #ffffff; z-index: 10; background-color: #0f0e0ff8; } /*#3d0825d7 */
+#about {height:1300px; color: #1b1a1a; z-index: 10; background-color: #0f0e0ff8 /*#d6bc53*/; font-family: 'Pacifico', cursive;}
+#portfolio {padding-top:10px;height:1520px;color: #e0dcdc;  z-index: 10; background-color:  #0f0e0ff8;}
+#footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;z-index: 10; font-size:20px; background-color: rgba(109, 19, 39, 0.719);}
 
 @import "compass/css3"; /*imports http://compass-style.org/reference/compass/css3/*/
 
@@ -16,7 +16,7 @@
 .topnav {
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
-    background-color: #141414;;
+    background-color:  #0f0e0ff8;
 }
 
 /*link style */
@@ -38,7 +38,7 @@
 
 /* highlight the current page*/
 .active {
-    background-color: #916b19;
+    background-color: #916b19; 
     color: white;
 
 }
@@ -118,6 +118,7 @@
     font-family: 'Rock Salt', cursive;
     text-align: right;
     font-size: 35px;
+    color: rgba(245, 189, 3, 0.973);
 }
 
 #me {
@@ -130,7 +131,7 @@
  #background1 {
     position: relative;
     left: 0;
-    height: 130%;
+    height: 100%; 
     width: 100%;
     background: transparent;
     background-size: cover;
@@ -161,8 +162,8 @@
 #heading1 {
     text-align: center;  
     padding-top:60px; 
-    font-size: 120px;
-    color:rgb(53, 12, 54);
+    font-size: 60px;
+    color:rgba(223, 165, 203, 0.863);
 
 
     
@@ -174,39 +175,37 @@
     word-wrap: normal;
     width:80%;
     margin:auto;
-    color:rgb(53, 12, 54)
- 
-    
-    
-}
-
-
-#paragraph {
-    font-size: 20px;
+    color:rgba(223, 165, 203, 0.863);
+ font-size: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    
+    
 }
+
 
 #dev {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding-top: 25px; 
-    color:rgb(53, 12, 54);
+    color:rgba(223, 165, 203, 0.863);
    
     
 }
 
 #devFont{
     font-weight: bold;
-    color: rgb(148, 57, 24);
+    color: rgb(236, 160, 132);
 }
 
 
 #heading2 {
     font-family: 'Pacifico', cursive;
+    margin-bottom: 50px;
 text-align:center;
 font-size:50px;
+color: rgb(223, 165, 203, 0.863);
 
 }
 
