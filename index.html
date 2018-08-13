@@ -170,8 +170,8 @@
                 <div class="col-sm-3 col-lg-3">
                     <img src="http://via.placeholder.com/200x200" alt="Work One" class="img-responsive">
                     <div class="work-overlay">
-                        <h4>Work One</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h4>Palindrome Checker</h4>
+                        <p>Returns true if the given string is a palindrome.</p>
                     </div>
 
                 </div>
@@ -179,7 +179,7 @@
                     <div class="work">
                         <img src="http://via.placeholder.com/200x200" alt="Work Two" class="img-responsive">
                         <div class="work-overlay">
-                            <h4>Work Two</h4>
+                            <h4>Random Quote Machine</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
@@ -238,7 +238,7 @@
 
                 for (i = 1; i <= 15; i++) {
                     size = Math.ceil(5 * Math.random()) + 5;
-                    color = 'rgba(' + Math.round(75 * Math.random()) + ', ' + Math.round(175 * Math.random()) + ', ' + Math.round(4 * Math.random()) + ', ' + (Math.round(100 * Math.random()) / 100) + ')'; 
+                    color = 'rgba(' + Math.round(75 * Math.random()) + ', ' + Math.round(175 * Math.random()) + ', ' + Math.round(4 * Math.random()) + ', ' + (Math.round(150 * Math.random()) / 150) + ')'; 
                     $('#background1').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(600 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px; background1: ' + color + '; box-shadow: 0px 0px 10px ' + color + ';"></div>');
                 }
 
@@ -261,7 +261,7 @@
                     motionAngleY: 80,
                     alphaFilter: 0.4,  // Low Pass Filter to smooth sensor readings (1 = no filter)
                     adjustBasePosition: true,
-                    alphaPosition: 0.025, // alpha for Low Pass Filter used to adjust average position was set to 0.25
+                    alphaPosition: 0.25, // alpha for Low Pass Filter used to adjust average position was set to 0.25
                 });
 
             });
