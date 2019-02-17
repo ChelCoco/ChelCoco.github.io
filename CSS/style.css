@@ -1,10 +1,11 @@
 
 
 
-#welcome {height:960px;color:  #ffffff; z-index: 10; background-color: #0f0e0ff8; } /*#3d0825d7 */
-#about {height:1300px; color: #1b1a1a; z-index: 10; background-color: #0f0e0ff8 /*#d6bc53*/; font-family: 'Pacifico', cursive;}
-#portfolio {padding-top:10px;height:1520px;color: #e0dcdc;  z-index: 10; background-color:  #0f0e0ff8;}
-#footer {text-align:center; padding-top:10px;height:50px;color: #ffffff;z-index: 10; font-size:20px; background-color: rgba(109, 19, 39, 0.719);}
+#welcome {color:  #ffffff; z-index: 10; background-color: #0f0e0ff8; } /*#3d0825d7 */
+#about {color: #1b1a1a; z-index: 10; background-color: #0f0e0ff8 /*#d6bc53*/; font-family: 'Pacifico', cursive; padding-bottom:80px;}
+#portfolio {padding-top:10px;color: #e0dcdc;  z-index: 10; background-color:  #0f0e0ff8; padding-bottom:200px;}
+#footer {text-align:center; padding-top:10px;z-index: 10; font-size:20px; background-color: rgba(223, 165, 203, 0.863);
+    color: black; font-family:'Raleway', sans-serif; font-weight: bold;} 
 
 @import "compass/css3"; /*imports http://compass-style.org/reference/compass/css3/*/
 
@@ -33,16 +34,16 @@
 
 /* color changes when hovering over links */
 .topnav a:hover {
-    background-color:#ddd;
-    color: black;
+    background-color:rgb(202, 147, 44);
+    color: #ffffff;
 }
 
-/* highlight the current page*/
+/* highlight the current page...i dont think i'll include this for now
 .active {
     background-color: #916b19; 
     color: white;
 
-}
+}*/
 
 /* Hides link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -162,9 +163,9 @@
 
 #heading1 {
     text-align: center;  
+    font-family: 'Rock Salt', cursive;
     padding-top:60px; 
-    font-size: 60px;
-    color:rgba(223, 165, 203, 0.863);
+    color:rgb(236, 160, 132);
 
 
     
@@ -202,10 +203,9 @@
 
 
 #heading2 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Rock Salt', cursive;
     margin-bottom: 50px;
 text-align:center;
-font-size:50px;
 color: rgb(223, 165, 203, 0.863);
 
 }
@@ -217,9 +217,3 @@ color: rgb(223, 165, 203, 0.863);
 }
 
 
-.footer {
-     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-
-}
