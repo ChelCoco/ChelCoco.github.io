@@ -2,7 +2,7 @@
 
 
 #welcome {color:  #ffffff; z-index: 10; background-color: #0f0e0ff8; } /*#3d0825d7 */
-#about {color: #1b1a1a; z-index: 10; background-color: #0f0e0ff8 /*#d6bc53*/; font-family: 'Pacifico', cursive; padding-bottom:300px;}
+#about {color: #1b1a1a; z-index: 10; background-color: #0f0e0ff8 /*#d6bc53*/; font-family: 'Pacifico', cursive; padding-bottom:100px;}
 #portfolio {padding-top:10px;color: #e0dcdc;  z-index: 10; background-color:  #0f0e0ff8; padding-bottom:200px;}
 #footer {text-align:center; padding-top:10px;z-index: 10; font-size:20px; background-color: #0f0e0ff8;
     color: rgb(223, 165, 203, 0.863); font-family:'Raleway', sans-serif; font-weight: bold;} 
@@ -206,7 +206,7 @@
     font-family: 'Rock Salt', cursive;
     text-align: center;
     margin-bottom: 50px;
-color: rgb(223, 165, 203, 0.863);
+color: rgb(236, 160, 132);
 
 }
 
