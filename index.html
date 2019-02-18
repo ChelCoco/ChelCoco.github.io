@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="luciernagas" data-parallaxify-range="320"></div>
+                <div class="luciernagas" data-parallaxify-range="500"></div>
                 <div id="background1">
                     <div id="me">
 
@@ -218,7 +218,7 @@
 
                 for (i = 1; i <= 15; i++) {
                     size = Math.ceil(5 * Math.random()) + 5;
-                    color = 'rgba(' + Math.round(75 * Math.random()) + ', ' + Math.round(175 * Math.random()) + ', ' + Math.round(4 * Math.random()) + ', ' + (Math.round(150 * Math.random()) / 150) + ')'; 
+                    color = 'rgba(' + Math.round(50* Math.random()) /*75*/ + ', ' + Math.round(50* Math.random()) /*175*/+ ', ' + Math.round(50 * Math.random()) /*4*/ + ', ' + (Math.round(50 * Math.random()) / 100) + ')'; /*150*/
                     $('#background1').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(600 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px; background1: ' + color + '; box-shadow: 0px 0px 10px ' + color + ';"></div>');
                 }
 
@@ -247,6 +247,9 @@
             });
         }); 
     </script>
+
+
+
     <script>
         /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
         function myFunction() {
