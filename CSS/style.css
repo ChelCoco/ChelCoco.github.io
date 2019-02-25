@@ -195,18 +195,17 @@
     
 }
 
-#devFont{
+.devFont{
     font-weight: bold;
     color: rgb(236, 160, 132);
 }
 
 
-#heading2 {
+.heading2 {
     font-family: 'Rock Salt', cursive;
     text-align: center;
     margin-bottom: 50px;
-color: rgb(236, 160, 132);
-
+    color: rgb(236, 160, 132);
 }
 
 
