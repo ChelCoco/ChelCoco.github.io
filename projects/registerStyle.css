@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url("movies.jpg") no-repeat;
+    background-size: cover;
+    background-color: #181717;
+    display: -ms-flexbox; /* this if other browsers dont support flex */
+    display: flex;
+    -ms-flex-align: center;
+    flex-direction: column;
+}
+
+.needs-validation {
+    background-color: rgb(0,0,0,0.5);
+    color: rgb(226, 219, 219);
+    padding: 1em;
+
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+    }
+
+
+.logo{
+    padding: 20px;
+}
+
+.encapsulateform{
+    flex: 1 0 auto;
+}
+
+#signedup {
+    text-align: center; 
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(0,0,0,0.5);
+    display: flex;
+    flex-shrink: 0;
+    text-align:center;
+    color:white;
+    padding-top: 10px;
+}
+
