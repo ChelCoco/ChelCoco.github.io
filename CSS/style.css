@@ -26,9 +26,9 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* color changes when hovering over links */
@@ -114,11 +114,11 @@
 
 
 #greeting {
-    font-family: 'Raleway', sans-serif;
-    padding-top:10px;
-    text-align: right;
+    font-family: 'Monoton', cursive;
+    padding:30px;
+    text-align: center;
     font-size: 30px;
-    color: #f2f2f2;
+    color: rgb(243, 151, 97);
 }
 
 #me {
@@ -159,7 +159,7 @@
 
 #heading1 {
     text-align:center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Monoton', cursive;
     padding-top:60px; 
     color:rgb(243, 151, 97);
 
@@ -173,33 +173,32 @@
     word-wrap: normal;
     width:80%;
     margin:auto;
-    color:rgb(255, 195, 237);
+    color:rgb(226, 203, 156);
  font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     
-    
+  
 }
 
 
 #dev {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     padding-top: 25px; 
-    color:rgb(255, 195, 237);
+    color:rgb(226, 203, 156);
    
     
 }
 
 .devFont{
-    font-weight: bold;
     color: rgb(243, 151, 97);
+    font-family: 'Monoton', cursive;
+
 }
 
 
 .heading2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Monoton', cursive;
     text-align: center;
     margin-bottom: 50px;
     color: rgb(243, 151, 97);
