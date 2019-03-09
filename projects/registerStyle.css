@@ -18,6 +18,9 @@ body {
     padding: 1em;
 
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #safari { background-color:rgb(107, 100, 100) }
+}
 
 ul, li {
     margin: 0;
@@ -28,7 +31,7 @@ ul, li {
 
 
 .logo{
-    padding: 10px;
+    padding: 5px;
 }
 
 #createaccount {
