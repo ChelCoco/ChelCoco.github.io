@@ -2,9 +2,9 @@
 
 
 #welcome {color:  #ffffff; z-index: 10; background-color: #0f0e0ff8; } /*#3d0825d7 */
-#about {color: #ffffff; z-index: 10; background-color: #fffffff8 /*#d6bc53*/; font-family: 'Raleway', sans-serif; padding-bottom:100px;}
+#about {color: #ffffff; z-index: 10; background-color: #0f0e0ff8 /*#d6bc53*/; font-family: 'Raleway', sans-serif; padding-bottom:100px;}
 #portfolio {padding-top:10px;color: #e0dcdc; z-index: 10; background-color: #0f0e0ff8; padding-bottom:200px;}
-#footer { padding-top:10px;z-index: 10; background-color: #0f0e0ff8; text-align:center; font-size:20px; color:rgb(209, 154, 51); font-family:'Raleway', sans-serif; font-weight: bold;} 
+#footer { padding-top:10px;z-index: 10; background-color: #0f0e0ff8; text-align:center; font-size:20px; color:rgb(243, 151, 97); font-family:'Raleway', sans-serif; font-weight: bold;} 
 
 @import "compass/css3"; /*imports http://compass-style.org/reference/compass/css3/*/
 
@@ -123,7 +123,7 @@
 
 #me {
     max-width: 100%;
-    padding-bottom:25px;
+    padding-bottom:100px;
 }
 
 
@@ -154,16 +154,14 @@
     box-shadow: 0px 0px 10px rgba(202, 245, 8, 0.75);
 }
 
-#welcomeBorder {
-    border: 25px solid rgba(109, 19, 39, 0.719);
-}
+
 
 
 #heading1 {
     text-align:center;
     font-family: 'Raleway', sans-serif;
     padding-top:60px; 
-    color:rgb(107, 31, 0);
+    color:rgb(243, 151, 97);
 
 
     
@@ -175,7 +173,7 @@
     word-wrap: normal;
     width:80%;
     margin:auto;
-    color:rgb(192, 134, 25);
+    color:rgb(255, 195, 237);
  font-size: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -189,14 +187,14 @@
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding-top: 25px; 
-    color:rgb(209, 154, 51);
+    color:rgb(255, 195, 237);
    
     
 }
 
 .devFont{
     font-weight: bold;
-    color: rgb(107, 31, 0);
+    color: rgb(243, 151, 97);
 }
 
 
@@ -204,7 +202,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-bottom: 50px;
-    color: rgb(255, 255, 255);
+    color: rgb(243, 151, 97);
 }
 
 
