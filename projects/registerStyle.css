@@ -16,10 +16,10 @@ body {
     background-color: rgb(0,0,0,0.5);
     color: rgb(255, 255, 255);
     padding: 1em;
-
 }
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-    #safari { background-color:rgb(107, 100, 100) }
+    .safari .needs-validation  { background-color:rgb(107, 100, 100) }
 }
 
 ul, li {
