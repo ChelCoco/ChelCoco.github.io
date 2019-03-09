@@ -14,7 +14,7 @@ body {
 
 .needs-validation {
     background-color: rgb(0,0,0,0.5);
-    color: rgb(226, 219, 219);
+    color: rgb(255, 255, 255);
     padding: 1em;
 
 }
@@ -28,7 +28,11 @@ ul, li {
 
 
 .logo{
-    padding: 20px;
+    padding: 10px;
+}
+
+#createaccount {
+    padding-top: 20px;
 }
 
 .encapsulateform{
