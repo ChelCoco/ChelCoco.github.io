@@ -13,8 +13,8 @@ body {
 }
 
 .needs-validation {
-    background-color: rgb(0,0,0,0.60);
-    background-color: rgba(0, 0, 0, 0.60);
+    background-color: rgb(0,0,0,0.55);
+    background-color: rgba(0, 0, 0, 0.55);
     color: rgb(255, 255, 255);
     padding: 1em;
 }
@@ -45,8 +45,8 @@ ul, li {
 }
 
 footer {
-    background-color: rgb(0,0,0,0.60);
-    background-color: rgba(0, 0, 0, 0.60);
+    background-color: rgb(0,0,0,0.55);
+    background-color: rgba(0, 0, 0, 0.55);
 
     display: flex;
     flex-shrink: 0;
