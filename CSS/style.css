@@ -65,6 +65,10 @@
       color:white;
   }
 
+  a {
+    color: white;
+    text-decoration: none; /* no underline */
+  }
 
 /* global class*/
 
@@ -191,6 +195,9 @@
     color: rgb(243, 151, 97);
 }
 
-
+.projectLinks a {
+    color: white;
+    text-decoration: none;
+}
 
 
