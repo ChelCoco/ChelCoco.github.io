@@ -187,6 +187,12 @@
 
 }
 
+.dot {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20%;
+  display: inline-block;
+}
+
 
 .heading2 {
     font-family: 'Monoton', cursive;
