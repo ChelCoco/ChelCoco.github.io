@@ -1,6 +1,3 @@
-
-
-
 #welcome {color:  #ffffff; z-index: 10; background-color: #0f0e0ff8; } 
 #about {color: #ffffff; z-index: 10; background-color: #0f0e0ff8; font-family: 'Raleway', sans-serif; padding-bottom:100px;}
 #projects {padding-top:10px; font-family: 'Raleway', sans-serif; text-align:center; color: #e0dcdc; z-index: 10; background-color: #0f0e0ff8; padding-bottom:200px;}
@@ -204,5 +201,7 @@
     color: white;
     text-decoration: none;
 }
+
+
 
 
