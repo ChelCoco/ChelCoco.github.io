@@ -202,6 +202,13 @@
     text-decoration: none;
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
 
+a:visited {
+    color: rgb(243, 151, 97);
+  }
 
 
