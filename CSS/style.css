@@ -78,10 +78,10 @@
     background: url(../images/moon1.png) no-repeat;
     background-position: center;
     margin: auto;
-   background-size: 120%;
+    background-size: 120%;
     border-radius: 50%;
-  width: 350px;
-  height: 350px;
+    width: 350px;
+    height: 350px;
     border: 2px solid rgb(224, 161, 44);
     box-shadow: 0 0 50px rgb(248, 242, 242);
     animation: pulsate 2s ease-out infinite;
