@@ -63,7 +63,6 @@
   }
 
   a {
-    color: white;
     text-decoration: none; /* no underline */
   }
 
@@ -103,9 +102,9 @@
 
 #greeting {
     font-family: 'Monoton', cursive;
-    padding:30px;
+    padding: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 48px;
     color: rgb(243, 151, 97);
 }
 
@@ -198,11 +197,6 @@
 }
 
 .projectLinks a {
-    color: white;
-    text-decoration: none;
-}
-
-a:link {
     color: white;
     text-decoration: none;
 }
