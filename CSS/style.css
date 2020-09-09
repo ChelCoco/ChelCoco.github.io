@@ -110,7 +110,7 @@
 
 #me {
     max-width: 100%;
-    padding-bottom:142px;
+    padding-bottom: 140px;
 }
 
 
@@ -147,7 +147,7 @@
 #heading1 {
     text-align:center;
     font-family: 'Monoton', cursive;
-    padding-top:60px; 
+    padding-top: 60px; 
     color:rgb(243, 151, 97);
 
 
@@ -156,9 +156,9 @@
 
 
 #paragraph {
-    padding-top:50px;
+    padding-top: 50px;
     word-wrap: normal;
-    width:80%;
+    width: 80%;
     margin:auto;
     color:rgb(255, 255, 255);
  font-size: 20px;
