@@ -111,8 +111,8 @@ a {
     margin: auto;
     background-size: 120%;
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 210px;
+    height: 210px;
     border: 2px solid rgb(224, 161, 44);
     box-shadow: 0 0 50px rgb(248, 242, 242);
     animation: pulsate 2s ease-out infinite;
@@ -141,8 +141,7 @@ a {
     color: rgb(243, 151, 97);
 }
 
-#me {
-    max-width: 100%;
+#lunapadding {
     padding-bottom: 140px;
 }
 
