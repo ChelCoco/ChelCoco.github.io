@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <!-- viewport is the users visible area of a webpage, viewport varies with the device-->
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0" />
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -52,17 +52,15 @@
     <div id="welcome">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="col-sm-12">
                     <div class="luciernagas" data-parallaxify-range="20"></div>
-                    <div id="background1">
+                    <div id="home-background">
                         <div id="me">
                             <h1 id="greeting"> Welcome <br> amigo ! </h1>
                             <div id="luna" class="img-responsive center-block">
-                                <img src="images/IMG_0049.png" alt="me" class="img-responsive center-block">
-
+                                <img src="images/IMG_0049.png" alt="Chelcie White" class="img-responsive center-block">
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -70,111 +68,101 @@
     </div>
     
     <!--About page-->
-    <div id="about" class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-3">
-    
-                <h2 id="heading1"> About&nbsp;Me</h2>
-    
-    
-    
-            </div>
-        </div>
-    
-        <div class="row">
-    
-            <div class="col-sm-12 col-md-6 col-lg-8">
-    
-                <p id="paragraph">
-                    My name is Chelcie. I'm currently based in Alpharetta, Georgia. <br> <br>
-                    I enjoy exploring email marketing technologies and improving my programming skills.<br><br>
-                    <em>I am currently looking for new opportunities. If you wish to contact me please reach out to me on <a href="https://www.linkedin.com/in/chelcie-w-46422455" target="_blank" >LinkedIn</a> or email me at <a href="mailto:cw@cwhite.xyz" target="_blank">cw@cwhite.xyz</a></em>
-                </p>
-            </div>
-
-
-            <div class="col-sm-4 col-md-6 col-lg-4">
-                <div id="dev">
-                    <h3 class="devFont">Front-end Development</h3>
-                    <ul>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <h3 class="devFont">Front-end libraries</h3>
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>JQuery</li>
-                        <li>Sass</li>
-                    </ul>
-                    <h3 class="devFont">Languages</h3>
-                    <ul>
-                        <li>Spanish</li>
-                        <li>English</li>
-                    </ul>
-                    <h3 class="devFont">Certifications</h3>
-                    <ul style="list-style-type: none;padding-left: 0;">
-                        <li>
-                            <div class='academy-badge'>
-                                <a style="display: block;"
-                                    href='https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-certificates/11-7453623-1551062913360.png'
-                                    title='Email Marketing'>
-                                    <img width="172" src='https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-badges/11-7453623-1551062913578.png' class="dot img-responsive">
-                                </a> 
-                           
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <div id="projects" class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-12">
-                <h2 class="heading2"> Web &nbsp; Projects </h2>
-            </div>
-        </div>
-
-
-        <!-- Work Section -->
-
+    <div id="about" class="padding-gutter-lg">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-lg-4 projectLinks">
+                <div class="col-xs-12">
+                    <h2 id="about-header" class="text-center">About&nbsp;&nbsp;&nbsp;Me</h2>
+                </div>
+            </div>
+        
+            <div class="row padding-gutter-md">
+                <div class="col-xs-12">
+                    <p id="paragraph">
+                        My name is Chelcie. I'm currently based in Alpharetta, Georgia. <br><br>
+                        I enjoy exploring email marketing technologies and improving my programming skills.<br><br>
+                        <em>I am currently looking for new opportunities. If you wish to contact me please reach out to me on <a href="https://www.linkedin.com/in/chelcie-w-46422455" target="_blank" >LinkedIn</a> or email me at <a href="mailto:cw@cwhite.xyz" target="_blank">cw@cwhite.xyz</a></em>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="dev">
+                    <div class="col-sm-3 col-xs-6">
+                        <h3 class="devFont">Front-end</h3>
+                        <ul>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <h3 class="devFont">Libraries</h3>
+                        <ul>
+                            <li>Sass</li>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <h3 class="devFont">Languages</h3>
+                        <ul>
+                            <li>Spanish</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <h3 class="devFont">Certifications</h3>
+                        <ul style="list-style-type: none;padding-left: 0;">
+                            <li>
+                                <div class='academy-badge'>
+                                    <a style="display: block;"
+                                        href='https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-certificates/11-7453623-1551062913360.png'
+                                        title='Email Marketing'>
+                                        <img width="172" src='https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-badges/11-7453623-1551062913578.png' class="dot img-responsive">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <div id="projects" class="padding-gutter-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 id="project-header" class="text-center">Web&nbsp;&nbsp;&nbsp;Projects</h2>
+                </div>
+            </div>
+            <div class="row text-center padding-gutter-lg">
+                <div class="col-sm-4 col-lg-4 project-link">
                     <a href="https://codepen.io/ChelCoCo/pen/wxZBWe" target="_blank">
                         <img src="images/palindromeChecker.PNG" alt="palindromeProject" class="img-responsive">
                         <p>Palindrome Checker</p> <br>
                     </a>
                 </div>
-                <div class="col-sm-4 col-lg-4 projectLinks">
+                <div class="col-sm-4 col-lg-4 project-link">
                     <a href="projects/register.html" target="_blank">
                         <img src="images/landingPage01.PNG" alt="LandingPage" class="img-responsive">
                         <p>Mock Streaming Service Landing Page</p><br>
                     </a>
                 </div>
-                <div class="col-sm-4 col-lg-4 projectLinks">
+                <div class="col-sm-4 col-lg-4 project-link">
                     <a href="projects/blancoauto/BlancoAutoGroup.html" target="_blank">
                         <img src="images/autohomepage.PNG" alt="auto homepage" class="img-responsive">
                         <p>Mock Car Dealership Website</p> <br>
                     </a>
                 </div>
             </div>
-        
-            
-
             <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <h2 class="heading2"> Email &nbsp; Templates </h2>
+                <div class="col-xs-12">
+                    <h2 id="project-header" class="text-center">Email&nbsp;&nbsp;&nbsp;Templates</h2>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-lg-4 projectLinks">
+            <div class="row text-center padding-gutter-lg">
+                <div class="col-sm-4 col-lg-4 project-link">
                     <a href="https://codepen.io/ChelCoCo/pen/dyMZLda" target="_blank">
                         <img src="images/previewofvmloutlook.PNG" alt="Outlook Work-around" class="img-responsive">
                         <p>Work-around for Outlook: Adding transparent images </p> <br>
@@ -182,7 +170,7 @@
                 </div>
 
                 <!-- adding redesign later
-                <div class="col-sm-4 col-lg-4 projectLinks"> 
+                <div class="col-sm-4 col-lg-4 project-link"> 
                     <a href="rabun_emailtemplate.html" target="_blank">
                         <img src="#" alt="Redesigned email template" class="img-responsive">
                         <p>Redesigned email template</p><br>
@@ -190,13 +178,18 @@
                 </div>-->
             </div>
         </div>
-        
         <!-- Work Section End -->
     </div>
 
+    <div id="footer" class="containe text-center padding-gutter-lg">Coded with love by Chelcie
+        <ion-icon name="heart-empty"></ion-icon>
     </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://hwthorn.github.io/parallaxify/javascripts/jquery.parallaxify.min.js"></script>
     <script>
         $(function () {
@@ -209,18 +202,18 @@
 
                 for (i = 1; i <= 150; i++) {
                     size = Math.ceil(3 * Math.random());
-                    $('#background1').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(100 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px;"></div>');
+                    $('#home-background').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(100 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px;"></div>');
                 }
 
                 for (i = 1; i <= 30; i++) {
                     size = Math.ceil(5 * Math.random()) + 2;
-                    $('#background1').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(400 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px;"></div>');
+                    $('#home-background').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(400 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px;"></div>');
                 }
 
                 for (i = 1; i <= 15; i++) {
                     size = Math.ceil(5 * Math.random()) + 5;
                     color = 'rgba(' + Math.round(50 * Math.random()) /*75*/ + ', ' + Math.round(50 * Math.random()) /*175*/ + ', ' + Math.round(50 * Math.random()) /*4*/ + ', ' + (Math.round(50 * Math.random()) / 100) + ')'; /*150*/
-                    $('#background1').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(600 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px; background1: ' + color + '; box-shadow: 0px 0px 10px ' + color + ';"></div>');
+                    $('#home-background').append('<div class="luciernagas" data-parallaxify-range="' + Math.round(600 * Math.random()) + '" style="top: ' + Math.round(height * Math.random()) + 'px; left: ' + Math.round(width * Math.random()) + 'px; width: ' + size + 'px; height: ' + size + 'px; home-background: ' + color + '; box-shadow: 0px 0px 10px ' + color + ';"></div>');
                 }
 
 
@@ -228,11 +221,6 @@
                 // Math.round(5.6); returns 6
                 // Math.floor(5.6); returns  5
                 //Math.ceil(5.6);  returns  6
-
-
-
-
-
                 $.parallaxify({
                     positionProperty: 'transform',
                     responsive: true,
@@ -249,8 +237,6 @@
         }); 
     </script>
 
-
-
     <script>
         /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
         function myFunction() {
@@ -263,10 +249,6 @@
         }
     </script>
 
-
 </body>
-<div id="footer"> Coded with love by Chelcie
-    <ion-icon name="heart-empty"></ion-icon>
-</div>
 
 </html>

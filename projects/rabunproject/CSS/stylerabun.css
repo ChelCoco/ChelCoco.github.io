@@ -1,0 +1,14 @@
+body {
+    background-color:rgb(240, 240, 240)!important; 
+ } 
+ 
+ 
+ #headline { 
+    font-family: 'Raleway', sans-serif;
+    color:rgb(105, 104, 104);
+    text-align:center;
+}
+
+.buttonfont {
+    font-family: 'Raleway', sans-serif;
+}
