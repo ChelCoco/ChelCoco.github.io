@@ -7,7 +7,7 @@
 #about {
     color: #ffffff;
     z-index: 10;
-    background-color: #1e3146;
+    background-color: #13263c;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -15,12 +15,12 @@
     font-family: 'Raleway', sans-serif;
     color: #e0dcdc;
     z-index: 10;
-    background-color: #1e3146;
+    background-color: #13263c;
 }
 
 #footer {
     z-index: 10;
-    background-color: #1e3146;
+    background-color: #13263c;
     font-size: 1em;
     color: rgb(243, 151, 97);
     font-family: 'Raleway', sans-serif;
