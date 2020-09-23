@@ -106,14 +106,14 @@ a {
 
 /* Adding Moon with pulse*/
 #luna {
-    background: url(../images/moon1.png) no-repeat;
+    background: url(../images/rabbitmoon.png) no-repeat;
     background-position: center;
     margin: auto;
     background-size: 120%;
     border-radius: 50%;
     width: 210px;
     height: 210px;
-    border: 2px solid rgb(224, 161, 44);
+    border: 2px solid rgb(194, 134, 13);
     box-shadow: 0 0 50px rgb(248, 242, 242);
     animation: pulsate 2s ease-out infinite;
     margin-top: 10px;
